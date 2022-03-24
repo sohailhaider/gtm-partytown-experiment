@@ -21,7 +21,7 @@ const Home: NextPage = () => {
             })(window,document,'script','dataLayer','GTM-N2777KL');`,
           }}
         ></script>
-        <Partytown debug={true} forward={["dataLayer.push"]} />
+        <Partytown forward={["dataLayer.push"]} />
       </Head>
 
       <main className={styles.main}>
