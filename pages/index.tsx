@@ -15,10 +15,16 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h2>We have two pages</h2>
         <p>
-          try running lighthouse test on both link, with party time there
-          should not be a message for <i>`unused javascript`</i> related to GTM.
+          try running lighthouse test on both link, with party time there should
+          not be a message for <i>`unused javascript`</i> related to GTM.
           <br />
           also checkout the console there should be message shown from gtm.
+          <ul>
+            <li>
+              If you click on party time button, there should be a response from
+              GTM based on our custom event which is sent on click.
+            </li>
+          </ul>
         </p>
         <ul>
           <li>
