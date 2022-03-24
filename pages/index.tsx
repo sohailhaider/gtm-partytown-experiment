@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           also checkout the console there should be message shown from gtm.
           <ul>
             <li>
-              If you click on party time button, there should be a response from
+              If you click on party town button, there should be a response from
               GTM based on our custom event which is sent on click.
             </li>
           </ul>

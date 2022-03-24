@@ -33,6 +33,15 @@ const Home: NextPage = () => {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+        <p>
+          <i>
+            If there is an error when clicking on button please refresh there
+            seems to be some issue if we do not load part town script tag area
+            in _document. And for this experiment I intentionally did not
+            included it there.
+          </i>
+        </p>
+        <br />
         Testing GTM with{" "}
         <button
           onClick={() => {
